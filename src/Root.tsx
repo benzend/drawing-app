@@ -3,11 +3,13 @@ import { RiCursorFill } from 'react-icons/ri';
 import { BiSquare } from 'react-icons/bi';
 import { BsArrowRight, BsDiamond, BsFillPencilFill, BsImage } from 'react-icons/bs';
 import { ImTextColor } from 'react-icons/im';
+import { FaRegHandPaper } from 'react-icons/fa';
 
 export const Root = () => {
   return (
     <main>
       <nav className="toolnav flex flex-row gap-1 p-2 fixed top-2 mx-auto inset-x-0 w-min shadow rounded-lg">
+        <button className="hand rounded h-10 w-10 flex items-center justify-center"><FaRegHandPaper /></button>
         <button className="select rounded h-10 w-10 flex items-center justify-center"><RiCursorFill /></button>
         <button className="square rounded h-10 w-10 flex items-center justify-center"><BiSquare /></button>
         <button className="diamond rounded h-10 w-10 flex items-center justify-center"><BsDiamond /></button>
