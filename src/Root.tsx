@@ -3,14 +3,14 @@ import React from 'react';
 export const Root = () => {
   return (
     <main>
-      <nav className="toolnav">
-        <button className="select">Se</button>
-        <button className="square">Sq</button>
-        <button className="diamond">Di</button>
-        <button className="arrow">Ar</button>
-        <button className="freedraw">Fd</button>
-        <button className="text">Tx</button>
-        <button className="img">Im</button>
+      <nav className="toolnav flex flex-row gap-1 p-2 absolute shadow rounded-lg">
+        <button className="select rounded h-10 w-10">Se</button>
+        <button className="square rounded h-10 w-10">Sq</button>
+        <button className="diamond rounded h-10 w-10">Di</button>
+        <button className="arrow rounded h-10 w-10">Ar</button>
+        <button className="freedraw rounded h-10 w-10">Fd</button>
+        <button className="text rounded h-10 w-10">Tx</button>
+        <button className="img rounded h-10 w-10">Im</button>
       </nav>
     </main>
   );
