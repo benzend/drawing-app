@@ -1,4 +1,3 @@
-import React from 'react';
 import { Canvas } from './components/Canvas';
 import { RiCursorFill } from 'react-icons/ri';
 import { BiSquare } from 'react-icons/bi';
